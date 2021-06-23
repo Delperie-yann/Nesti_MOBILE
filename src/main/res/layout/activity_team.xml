@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/team_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="27dp"
+        android:text="retour"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team_text4" />
+
+    <TextView
+        android:id="@+id/team_title"
+        android:layout_width="255dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="8dp"
+        android:text="L'equipe de developpement"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/team_text1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/team_text1"
+        android:layout_width="329dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/txt_dev_team_princip"
+        app:layout_constraintBottom_toTopOf="@+id/team_text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team_title" />
+
+    <TextView
+        android:id="@+id/team_text2"
+        android:layout_width="329dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/txt_dev_team_conseil"
+        app:layout_constraintBottom_toTopOf="@+id/team_text3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team_text1" />
+
+    <TextView
+        android:id="@+id/team_text3"
+        android:layout_width="323dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="2dp"
+        android:text="@string/txt_dev_team_supervisor"
+        app:layout_constraintBottom_toTopOf="@+id/team_text4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team_text2" />
+
+    <TextView
+        android:id="@+id/team_text4"
+        android:layout_width="323dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="73dp"
+        android:text="@string/txt_dev_team_ref"
+        app:layout_constraintBottom_toTopOf="@+id/team_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/team_text3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
